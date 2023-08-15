@@ -1,6 +1,7 @@
 #include <MakerKit.h>
 
-#define BLYNK_TEMPLATE_ID           "AbdulMuhibAbdullah"
+
+#define BLYNK_TEMPLATE_ID           "NorazlinaAhmad"
 #define BLYNK_DEVICE_NAME           "IOT"
 #define BLYNK_AUTH_TOKEN            "bcXII5c0-ffAoPf4mUWtROlQ1CYwnrbN"
 
