@@ -62,7 +62,7 @@ BlynkTimer Timer1;
 void Timer1_TimerEvent()
 {
   Blynk.virtualWrite(V20, ultrasonic(12,27));
-  Blynk.virtualWrite(V7, analogRead(39));
+  Blynk.virtualWrite(V7, analogRead(36));
 }
 
 
@@ -71,7 +71,7 @@ void setup() {
   Blynk.begin(auth, ssid, pass);
   pixels.begin();
 
-  pinMode(39, INPUT);
+  pinMode(36, INPUT);
   Timer1.setInterval(300, Timer1_TimerEvent);
 
 }
