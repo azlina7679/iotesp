@@ -72,7 +72,7 @@ void setup() {
   pixels.begin();
 
   pinMode(36, INPUT);
-  Timer1.setInterval(300, Timer1_TimerEvent);
+  Timer1.setInterval(200, Timer1_TimerEvent);
 
 }
 
