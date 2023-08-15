@@ -13,8 +13,8 @@
 #include <BlynkSimpleEsp32.h>
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "Macna";
-char pass[] = "911";
+char ssid[] = "Azlina";
+char pass[] = "7989";
 #include <Adafruit_NeoPixel.h>
  Adafruit_NeoPixel pixels = Adafruit_NeoPixel(5, 4, NEO_GRB + NEO_KHZ800);
 
